@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about_us</class>
+ <widget class="QMainWindow" name="about_us">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>498</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About Us</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="paint_icon.qrc">
+    <normaloff>:/img/196290.png</normaloff>:/img/196290.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>441</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; color:#424242;&quot;&gt;The first version of Baby Paint was introduced by developer&lt;br/&gt;Microsoft with the &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; font-weight:696; color:#424242;&quot;&gt;first version of Windows, Windows 1.0, &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; color:#424242;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; font-weight:696; color:#424242;&quot;&gt;in 1985&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; color:#424242;&quot;&gt;. It has been included in all the Microsoft Windows&lt;br/&gt;versions since then, including Windows 10. The program&lt;br/&gt;has gone through &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; font-weight:696; color:#424242;&quot;&gt;various updates over the years&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','-apple-system','BlinkMacSystemFont','Arial','sans-serif'; font-size:16px; color:#424242;&quot;&gt; to&lt;br/&gt;include more advanced features as Windows PCs have&lt;br/&gt;developed. The biggest update came with the release of&lt;br/&gt;Windows 7.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Baby Paint</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>vs-0089N</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>320</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgroud: rgb(0, 85, 127);
+border-radius:2px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>498</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionHome"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="paint_icon.qrc">
+     <normaloff>:/img/185-1856543_button-outline-clip-art-exit-icon-png-orange.png</normaloff>:/img/185-1856543_button-outline-clip-art-exit-icon-png-orange.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionHome">
+   <property name="icon">
+    <iconset resource="paint_icon.qrc">
+     <normaloff>:/img/196290.png</normaloff>:/img/196290.png</iconset>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="paint_icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

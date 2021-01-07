@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>196290.png</file>
+        <file>about-us-logo-png-4.png</file>
+        <file>about-us-logo-png-6.png</file>
+        <file>file.png</file>
+        <file>Teal_Blue_Circle.png</file>
+        <file>tool-brush-drawing-512.webp</file>
+        <file>185-1856543_button-outline-clip-art-exit-icon-png-orange.png</file>
+    </qresource>
+</RCC>
